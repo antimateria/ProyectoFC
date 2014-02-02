@@ -1,0 +1,39 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:background="@drawable/appbackgroundvaults">
+
+        <TextView android:id="@+id/titulo_vaults" 
+            android:layout_width="match_parent" 
+            android:layout_height="50dp" 
+            android:layout_toRightOf="@+id/imgcajafuerte"
+            android:gravity="left"   
+            android:paddingTop="12dp"         
+            android:background="#6B006B"
+            android:paddingLeft="20dp" 
+            android:text="@string/TIT_VAULTS" 
+            android:textSize="25sp" 
+            android:textStyle="bold" />
+        
+        <ImageView
+            android:id="@+id/imgcajafuerte"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"            
+            android:adjustViewBounds="true"
+            android:background="#6B006B"
+            android:contentDescription="@string/descripcion"
+            android:paddingLeft="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ico_lista" />
+        
+        <ExpandableListView
+            android:id="@+id/expandableList000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/titulo_vaults" >
+        </ExpandableListView>
+
+
+    </RelativeLayout>

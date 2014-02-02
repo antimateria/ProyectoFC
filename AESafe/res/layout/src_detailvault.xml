@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/addvault" >
+
+  
+	<!-- 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+    </RelativeLayout>
+    -->
+    <TextView
+        android:id="@+id/lblAddVaultTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AddVaultTitle"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="28dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/lblAddVaultDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblAddVaultTitulo"
+        android:text="@string/AddVaultDescripcion"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="65dp"
+        android:textColor="@color/Green"
+        android:textSize="16sp" />
+    
+    <EditText
+        android:id="@+id/txtAddVaultDescripcion"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblAddVaultDescripcion"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/Chartreuse"
+        android:ems="10"
+        android:inputType="textNoSuggestions"/>
+
+     <TextView
+         android:id="@+id/lblAddVaultValor"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/txtAddVaultDescripcion"
+         android:layout_marginLeft="40dp"
+         android:layout_marginTop="20dp"
+         android:text="@string/AddVaultValor"
+         android:textColor="@color/Green"
+         android:textSize="16sp" />
+     
+      <EditText
+        android:id="@+id/txtAddVaultValor"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblAddVaultValor"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/Chartreuse"
+        android:ems="10"
+        android:gravity="left|top"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:lines="3" /> 
+
+      <requestFocus android:layout_width="wrap_content" />
+
+      <Button
+          android:id="@+id/btncanceladdvault"
+          android:layout_width="100dp"
+          android:layout_height="40dp"
+          android:layout_alignBaseline="@+id/btnaddvault"
+          android:layout_alignBottom="@+id/btnaddvault"
+          android:layout_toRightOf="@+id/btnaddvault"
+          android:layout_marginLeft="15dp"
+          android:text="@string/bton_cancelar" />
+
+      <Button
+          android:id="@+id/btnaddvault"
+          android:layout_width="100dp"
+          android:layout_height="40dp"
+          android:layout_alignLeft="@+id/lblAddVaultTitulo"
+          android:layout_alignParentBottom="true"
+          android:layout_centerInParent="true"
+          android:layout_marginBottom="18dp"
+          android:layout_marginLeft="18dp"
+          android:text="@string/bton_aceptar" />
+
+</RelativeLayout>

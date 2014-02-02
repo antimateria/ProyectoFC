@@ -1,0 +1,24 @@
+<resources>
+
+   <style name="TitleText">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FE2E2E</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:shadowColor">#336633</item>
+        <item name="android:shadowRadius">2 </item>
+        <item name="android:shadowDx">1</item>  
+       <item name="android:shadowDy">1</item>
+    </style>
+    
+   <style name="groupRowStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FE2E2E</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:shadowColor">#336633</item>
+        <item name="android:shadowRadius">2 </item>
+        <item name="android:shadowDx">1</item>  
+       <item name="android:shadowDy">1</item>              
+   </style>
+</resources>

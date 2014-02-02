@@ -1,0 +1,13 @@
+<resources>
+
+	<string-array name="Categorias">
+		<item>@string/CATEG1_DESC</item>
+		<item>@string/CATEG2_DESC</item>
+		<item>@string/CATEG3_DESC</item>
+		<item>@string/CATEG4_DESC</item>
+		<item>@string/CATEG5_DESC</item>
+		<item>@string/CATEG6_DESC</item>
+		<item>@string/CATEG7_DESC</item>				
+	</string-array>
+		
+</resources>

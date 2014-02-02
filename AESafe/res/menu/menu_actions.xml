@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnuaddnew" android:title="@string/menuAddRegis" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/mnuchgpwd" android:title="@string/menuChgpasswd" android:icon="@android:drawable/ic_menu_manage"></item>
+    <item android:id="@+id/mnuAyuda" android:title="@string/menuAyuda" android:icon="@android:drawable/ic_menu_delete"></item>
+</menu>

@@ -1,0 +1,18 @@
+TAREAS POR HACER:
+-----------------
+
+1) Al modificar un Vault y seleccionar imagen, si no se puede por el motivo que sea, 
+   se queda el valor a vacio, y lo da de alta --> HAY QUE EVITAR QUE EL VALOR ESTE A VACIO.
+
+2) Realizar la pantalla de cambio de contraseña.
+
+3) Realizar la ayuda.
+
+4) Crear un servidor en Java que permita conexiones solicitando datos JSON o backups, 
+   con servlets seria suficiente.
+
+5) Control y gestion de errores y excepciones.
+
+6) ERROR: Cuando se modifica una imagen, al volverla a actualizar de la BD, en lugar de la foto
+   carga el nombre del fichero
+

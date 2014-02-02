@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/initpwd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbackground" >
+
+    <Button
+        android:id="@+id/cmdAceptar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:onClick="fCheckValues"
+        android:text="@string/frmInitPwd_Button" />
+
+    <TextView
+        android:id="@+id/lblRetypePwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="@string/frmInitRetypePwd_Message"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/ForestGreen"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lblPwdApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblRetypePwd"
+        android:text="@string/frmInitPwd_Message"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/ForestGreen"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtRetypePwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblRetypePwd"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="@color/Chartreuse"
+        android:textColorLink="@color/Chartreuse" />
+
+    <EditText
+        android:id="@+id/txtTypePwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtRetypePwd"
+        android:layout_below="@+id/lblPwdApp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="@color/Chartreuse"
+        android:textColorHint="@color/Chartreuse" >
+
+        <requestFocus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cmdAceptar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="93dp"
+        android:gravity="fill_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

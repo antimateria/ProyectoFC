@@ -1,0 +1,27 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:background="#A629A6"
+	android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/imageGroup"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="35dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/descripcion"
+        android:src="@drawable/creditcard" />
+   
+	<TextView
+		android:id="@+id/TextViewGroup"
+		android:textColor="#FFBFFF"	
+		android:textSize="16sp"
+		android:layout_width="wrap_content"
+		android:layout_height="30dp"
+		android:layout_marginLeft="10dp"
+		android:text="@string/descripcion"
+		android:gravity="center_vertical">
+	</TextView>
+ 
+</LinearLayout>

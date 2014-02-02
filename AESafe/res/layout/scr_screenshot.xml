@@ -1,0 +1,60 @@
+
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" >
+
+      <ImageView
+          android:id="@+id/scrshotBack"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:adjustViewBounds="true"
+          android:contentDescription="@string/descripcion"
+          android:scaleType="centerCrop"
+          android:src="@drawable/earth2" />
+
+      <ImageView
+          android:id="@+id/imgdroid"
+          android:contentDescription="@string/descripcion"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginBottom="19dp"
+          android:layout_marginRight="22dp"
+          android:src="@drawable/imgdroid" />
+
+      <ImageView
+          android:id="@+id/imglock"
+          android:contentDescription="@string/descripcion"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/imgdroid"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="65sp"
+          android:src="@drawable/candado" />
+
+      <TextView
+          android:id="@+id/scrTituloAPP"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="170dp"
+          android:text="@string/descripcion" />
+
+      <TextView
+          android:id="@+id/mensaje"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_marginBottom="5dp"
+          android:layout_marginLeft="12dp"
+          android:text="@string/AES256"
+          android:textSize="13sp" />
+
+  </RelativeLayout>
+   

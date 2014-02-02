@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- DEFINICION DE CONSTANTES GENERALES -->
+    <string name="app_name">AESafe</string>
+    <string name="vaults">AESafe Detail</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">AESafe</string> 
+    <string name="maintes">AESafe</string> 
+    <string name="descripcion1">Description Text</string>
+    <string name="CategText">Category</string>
+    <string name="modvault">Modify Vault</string>
+    <string name="addvault">Add Vault</string>
+    <string name="menu_insert">Insert</string> 
+    <string name="TIT_VAULTS">Protected info</string>
+    <string name="AES256">AES256 Encryption</string>
+    <string name="menuAddRegis">Add Vault</string>
+    <string name="menuChgpasswd">Change password</string>
+    <string name="menuAyuda">Help</string>
+    
+    <string name="bton_aceptar">Accept</string>
+    <string name="bton_cancelar">Cancel</string>
+    <string name="popupbtnBorrar">Delete</string>
+    <string name="popupbtnEditar">Edit</string>
+    <string name="popupbtnCancelar">Cancel</string>
+    <string name="msgPopup">Actions</string>
+    
+    <!-- COMUN A LAS PANTALLAS ALTAS, BAJAS Y MODIFICACIONES -->
+    <string name="InfoRecargaData">Reloading data\.\.\.</string>
+   	<string name="txtBtnImage">Image</string>
+   	<string name="ErrDescripVacia">Insert a description</string>
+    <string name="ErrValorVacio">Insert a value</string>   
+    <string name="AddVaultDescripcion">Description:</string>
+    <string name="AddVaultValor">Value:</string>
+    
+    <!-- PANTALLA AÑADIR SECRETO -->
+    <string name="AddVaultTitle">Add Vault</string> 
+    <string name="ErrInsertVault">Error inserting</string>
+    <string name="InfoAddVaults">Add data throw menu button</string>	
+	<string name="ExistDescription">The descripcion already exists for that category</string>
+	
+	<!-- PANTALLA MODIFICAR SECRETO -->
+    <string name="ModVaultTitle">Modify Vault</string>
+    <string name="ErrModVault">Error modifying</string>  
+    
+    
+    <!-- PANTALLA INICIAL -->
+    <string name="frmInitPwd_Message">Password</string>
+    <string name="frmInitPwd_Button">Accept</string>
+    <string name="frmInitRetypePwd_Message">Retype</string>    
+	<string name="mensajeEsperaTit">Checking cypher</string>
+    <string name="mensajeEsperaMen">Please wait\.\.\.</string>
+    	
+    <!--  PANTALLA INTROD. CONTRASEÑA -->
+	<string name="InfoAccessSystem">Accessing system\.\.\.</string>
+	<string name="ErrPwdIncorrecta">Incorrect Password</string>
+	<string name="InfoPwdMin5Chars">Password length too short</string>
+	<string name="InfoPwdNotMatch">Passwords do not match</string>
+    
+    <!-- TABLA USUARIOS -->
+    <string name="T_USUARIOS">usuarios</string>
+    
+	<!-- CAMPOS DE LA TABLA USUARIOS -->
+	<string name="T_USUARIOS_ID">id</string>
+	<string name="T_USUARIOS_USER">user</string>
+	<string name="T_USUARIOS_PASSWD">password</string>
+        
+    
+    <!-- CON LA INTERNACIONALIZACION LA TABLA CATEGORIAS VA A SER UNA LISTA DE VALORES 
+         DENTRO DE UN ARRAY DE STRINGS -->
+    
+    <string name="T_CATEGORIAS">categorias</string>
+    
+    <string name="CATEG1_DESC">Document</string>    
+    <string name="CATEG2_DESC">Credit Card</string>
+    <string name="CATEG3_DESC">Image</string>
+    <string name="CATEG4_DESC">Web Bank</string>
+    <string name="CATEG5_DESC">Web Mail</string>
+    <string name="CATEG6_DESC">Bank Codes</string>
+    <string name="CATEG7_DESC">Others</string>   
+	
+
+    <!-- TABLA VAULTS -->
+    <string name="T_VAULTS">vaults</string>
+    <!-- CAMPOS DE LA TABLA VAULTS -->
+    <string name="T_VAULTS_ID">id</string>
+    <string name="T_VAULTS_CATEG">categoria</string>
+    <string name="T_VAULTS_DESCR">descripcion</string>
+    <string name="T_VAULTS_VALOR">valor</string>
+    
+ 
+</resources>

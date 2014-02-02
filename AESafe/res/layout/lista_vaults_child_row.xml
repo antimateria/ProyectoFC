@@ -1,0 +1,56 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/childRowLaout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#FFBFFF"
+	android:layout_marginBottom="5dp">
+ 
+     <ImageView
+         android:id="@+id/imagechild"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="false"
+         android:layout_gravity="center_vertical"
+         android:background="@android:color/transparent"
+         android:contentDescription="@string/descripcion"
+         android:paddingLeft="5dp"
+         android:paddingTop="2dp"
+         android:src="@drawable/key" />
+     
+	<TextView
+	    android:id="@+id/TextViewChild01"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginTop="2dp"	    
+	    android:layout_toRightOf="@id/imagechild"
+	    android:text="@string/descripcion"
+	    android:textColor="#6B006B" >
+
+	</TextView>
+ 
+	<TextView
+	    android:id="@+id/TextViewChild02"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/TextViewChild01"
+	    android:layout_gravity="center_vertical"
+	    android:layout_marginLeft="10dp"
+	    android:paddingLeft="20dp"
+	    android:paddingBottom="3dp"
+	    android:textColor="@color/Gray"
+	    android:text="@string/descripcion" >
+
+	</TextView>
+ 
+	<TextView
+		android:id="@+id/TextViewChild03" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingBottom="5dp"
+		android:layout_marginLeft="10dp">
+	</TextView>
+ 
+</RelativeLayout>

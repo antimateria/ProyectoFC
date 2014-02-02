@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- DEFINICION DE CONSTANTES GENERALES -->
+    <string name="app_name">AESafe</string>
+    <string name="vaults">AESafe Detalle</string>
+    <string name="addvault">Añadir Vault</string>
+    <string name="modvault">Modificar Vault</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">AESafe</string>
+    <string name="maintes">AESafe</string> 
+    <string name="descripcion">Texto Descripcion</string>
+    <string name="CategText">Categoria:</string>
+    <string name="menu_insert">Insertar</string>
+    <string name="TIT_VAULTS">Informacion protegida</string> 
+    <string name="bton_aceptar">Aceptar</string>
+    <string name="bton_cancelar">Cancelar</string>
+    <string name="AES256">Cifrado AES256</string>
+    <string name="menuAddRegis">Añadir registro</string>
+    <string name="menuChgpasswd">Cambiar contraseña</string>
+    <string name="menuAyuda">Ayuda</string>
+    <string name="msgPopup">Acciones</string>
+    
+    <!-- COMUN A LAS PANTALLAS ALTAS, BAJAS Y MODIFICACIONES -->
+    <string name="InfoRecargaData">Recargando Datos\.\.\.</string>
+   	<string name="txtBtnImage">Imagen</string>
+   	<string name="ErrDescripVacia">Inserte una descripción</string>
+    <string name="ErrValorVacio">Inserte un valor</string>   
+    <string name="AddVaultDescripcion">Descripción:</string>
+    <string name="AddVaultValor">Valor:</string>
+    <string name="popupbtnBorrar">Borrar</string>
+    <string name="popupbtnEditar">Editar</string>
+    <string name="popupbtnCancelar">Cancelar</string>
+    
+    <!-- PANTALLA AÑADIR SECRETO -->
+    <string name="AddVaultTitle">Añadir Vault</string> 
+    <string name="ErrInsertVault">Error al insertar</string>
+    <string name="InfoAddVaults">Añada datos a traves del menú</string>
+    <string name="ExistDescription">Descripcion existente en la	 categoria</string>		
+	
+	<!-- PANTALLA MODIFICAR SECRETO -->
+    <string name="ModVaultTitle">Modificar Vault</string>
+    <string name="ErrModVault">Error al modificar</string>
+
+	<!--  PANTALLA INTROD. CONTRASEÑA -->
+	<string name="InfoAccessSystem">Accediendo al sistema\.\.\.</string>
+	<string name="ErrPwdIncorrecta">La contraseña es incorrecta</string>
+	<string name="InfoPwdMin5Chars">La contraseña minimo 5 caracteres</string>
+	<string name="InfoPwdNotMatch">Las contraseñas no coinciden</string>
+	   
+    <!-- PANTALLA INICIAL -->
+    <string name="frmInitPwd_Message">Password</string>
+    <string name="frmInitPwd_Button">Aceptar</string>
+    <string name="frmInitRetypePwd_Message">Reescribir</string>
+    <string name="mensajeEsperaTit">Verificando cifrado</string>
+    <string name="mensajeEsperaMen">Espere por favor\.\.\.</string>
+    	
+    
+    <!-- TABLA USUARIOS -->
+    <string name="T_USUARIOS">usuarios</string>
+	<!-- CAMPOS DE LA TABLA USUARIOS -->
+	<string name="T_USUARIOS_ID">id</string>
+	<string name="T_USUARIOS_USER">user</string>
+	<string name="T_USUARIOS_PASSWD">password</string>
+       
+    
+    <!-- CON LA INTERNACIONALIZACION LA TABLA CATEGORIAS VA A SER UNA LISTA DE VALORES 
+         DENTRO DE UN ARRAY DE STRINGS -->
+    
+    <string name="T_CATEGORIAS">categorias</string>
+    
+    <!-- DATOS DE LA TABLA CATEGORIAS -->
+  	
+    <string name="CATEG1_DESC">Documento</string>    
+    <string name="CATEG2_DESC">Tarjeta Credito</string>    
+    <string name="CATEG3_DESC">Imagen</string>    
+    <string name="CATEG4_DESC">Banco Web</string>    
+    <string name="CATEG5_DESC">Email Web</string>    
+    <string name="CATEG6_DESC">Banco Codigos</string>    
+    <string name="CATEG7_DESC">Otros</string>
+
+
+    <!-- TABLA VAULTS -->
+    <string name="T_VAULTS">vaults</string>
+    <!-- CAMPOS DE LA TABLA VAULTS -->
+    <string name="T_VAULTS_ID">id</string>
+    <string name="T_VAULTS_CATEG">categoria</string>
+    <string name="T_VAULTS_DESCR">descripcion</string>
+    <string name="T_VAULTS_VALOR">valor</string>
+    
+ 
+</resources>

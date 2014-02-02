@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/addvault" >
+
+  
+	<!-- 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+    </RelativeLayout>
+    -->
+    <TextView
+        android:id="@+id/lblModVaultTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ModVaultTitle"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="28dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/lblModVaultDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblModVaultTitulo"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="65dp"
+        android:text="@string/AddVaultDescripcion"
+        android:textColor="@color/Green"
+        android:textSize="16sp" />
+    
+    <TextView
+        android:id="@+id/lblModVaultcmbcateg"
+        android:layout_width="wrap_content"        
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtModVaultDescripcion"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"        
+        android:text="@string/CategText"
+        android:textColor="@color/Green"
+        android:textSize="16sp" />
+
+     <TextView
+         android:id="@+id/lblModVaultValor"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/cmbModVaultCateg"
+         android:layout_marginLeft="40dp"
+         android:layout_marginTop="20dp"
+         android:text="@string/AddVaultValor"
+         android:textColor="@color/Green"
+         android:textSize="16sp" />
+
+      <requestFocus android:layout_width="wrap_content" />
+
+      <EditText
+          android:id="@+id/txtModVaultDescripcion"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/lblModVaultDescripcion"
+          android:layout_centerHorizontal="true"
+          android:ems="10"
+          android:inputType="textNoSuggestions"
+          android:textColor="@color/Chartreuse" />
+
+      <Spinner
+          android:id="@+id/cmbModVaultCateg"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/lblModVaultcmbcateg"
+          android:layout_centerHorizontal="true"
+          android:background="@android:color/transparent"
+          android:paddingLeft="5dp"
+          android:text="@string/descripcion" />
+
+      <EditText
+          android:id="@+id/txtModVaultValor"
+          android:layout_width="250dp"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/cmbModVaultCateg"
+          android:layout_below="@+id/lblModVaultValor"
+          android:ems="10"
+          android:gravity="left|top"
+          android:inputType="textMultiLine|textNoSuggestions"
+          android:lines="3"
+          android:textColor="@color/Chartreuse" />
+
+      <Button
+          android:id="@+id/btncancelmodvault"
+          android:layout_width="100dp"
+          android:layout_height="40dp"
+          android:layout_alignBaseline="@+id/btnmodvault"
+          android:layout_alignBottom="@+id/btnmodvault"
+          android:layout_alignRight="@+id/txtModVaultValor"
+          android:text="@string/bton_cancelar" />
+
+      <Button
+          android:id="@+id/btnmodvault"
+          android:layout_width="100dp"
+          android:layout_height="40dp"
+          android:layout_alignLeft="@+id/lblModVaultTitulo"
+          android:layout_alignParentBottom="true"
+          android:layout_marginBottom="17dp"
+          android:text="@string/bton_aceptar" />
+
+      <ImageView
+          android:id="@+id/imgModPpreview"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/btnmodvault"
+          android:layout_alignTop="@+id/txtModVaultValor"
+          android:adjustViewBounds="false"
+          android:contentDescription="@string/descripcion"
+          android:cropToPadding="false"
+          android:scaleType="center"
+          android:src="@drawable/imagenico"
+          android:visibility="invisible" />
+
+      <Button
+          android:id="@+id/btnSelModImage"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/txtModVaultValor"
+          android:layout_below="@+id/txtModVaultValor"
+          android:minWidth="40dip"
+          android:text="@string/txtBtnImage"
+          android:visibility="invisible" />
+
+</RelativeLayout>
